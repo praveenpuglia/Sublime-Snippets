@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+var ${1:module} =  ( function(module){
+	\$.extend(module,{
+		${2:memberFunction}:function(){
+			${3:your_code}
+		}
+	});
+	return module;
+}(${1:module} || {} ));
+]]></content>
+	<tabTrigger>mpat</tabTrigger>
+</snippet>
