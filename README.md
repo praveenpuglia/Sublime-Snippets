@@ -12,7 +12,8 @@ A colleciton of Useful sublime snippets used in daily workflow.
 **Tab Triggers :** ( command + `TAB` )
 
 * Comment  - "comment" 
-* Module Pattern - "mpat" 
+* Module Pattern - "mpat"
+* Method Executing Console Statement - "mex"
 
 
 
