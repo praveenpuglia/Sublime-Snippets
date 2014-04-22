@@ -14,6 +14,7 @@ A colleciton of Useful sublime snippets used in daily workflow.
 * Comment  - "comment" 
 * Module Pattern - "mpat"
 * Method Executing Console Statement - "mex"
+* New Module Pattern - "nmpat"
 
 
 
