@@ -1,0 +1,36 @@
+<snippet>
+	<content><![CDATA[
+var ${1:ModuleName} = (function(module, \$, global, undefined){
+	//Private Properties
+	var _${2:privateVariable} = ${3:VAR VALUE};
+	var _${4:toBePublicVar} = ${5:VAR VALUE};
+	
+	/**
+	 * Description of the Method
+	 */
+	function _${6:privateMethod}(){
+		${7:METHOD DEFINITION}
+	}
+
+	/**
+	 * Description of the Method
+	 */
+	function _${8:toBePublicMethod}(){
+		${9:METHOD DEFINITION}
+	}
+
+	//Making properties public
+	\$.extend(module, {
+		${4:toBePublicVar} : _${4:toBePublicVar},
+		${8:toBePublicMethod} : _${8:toBePublicMethod}
+	});
+
+	return module;
+
+}(${1:ModuleName} || {}, this.jQuery, this))
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>nmpat</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.javascript</scope>
+</snippet>
