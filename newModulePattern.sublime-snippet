@@ -27,7 +27,7 @@ var ${1:ModuleName} = (function(module, \$, global){
 
 	return module;
 
-}(${1:ModuleName} || {}, this.jQuery, this))
+}(${1:ModuleName} || {}, this.jQuery, this));
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>nmpat</tabTrigger>
