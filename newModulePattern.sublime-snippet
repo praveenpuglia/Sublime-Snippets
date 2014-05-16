@@ -3,26 +3,25 @@
 var ${1:ModuleName} = (function(module, \$, global){
 	//Private Properties
 	var _${2:privateVariable} = ${3:[VAR VALUE]};
-	var _${4:toBePublicVar} = ${5:[VAR VALUE]};
 	
 	/**
 	 * Description of the Method
 	 */
-	function _${6:privateMethod}(){
-		${7:[METHOD DEFINITION]}
+	function _${4:privateMethod}(){
+		${5:[METHOD DEFINITION]}
 	}
 
 	/**
 	 * Description of the Method
 	 */
-	function _${8:toBePublicMethod}(){
-		${9:[METHOD DEFINITION]}
+	function _${6:toBePublicMethod}(){
+		${7:[METHOD DEFINITION]}
 	}
 
 	//Making properties public
 	\$.extend(module, {
-		${4:toBePublicVar} : _${4:toBePublicVar},
-		${8:toBePublicMethod} : _${8:toBePublicMethod}
+		${8:toBePublicVar} : ${9:[VAR VALUE]},
+		${6:toBePublicMethod} : _${6:toBePublicMethod}
 	});
 
 	return module;
